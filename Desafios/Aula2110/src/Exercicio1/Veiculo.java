@@ -44,7 +44,6 @@ public class Veiculo {
         System.out.println("Modelo: "+this.getModelo());
         System.out.println("Cor: "+this.getCor());
         System.out.println("Ano de Fabricação: "+this.getAno());
-    
     }
 }
 
