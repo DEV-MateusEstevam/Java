@@ -30,7 +30,4 @@ public class ArCondicionado {
         this.Temperatura = 18;
         System.out.println("Com "+this.Temperatura+"° de temperatura, o Modo turbo foi ativado!");
     }
-    
-    
-    
 }
