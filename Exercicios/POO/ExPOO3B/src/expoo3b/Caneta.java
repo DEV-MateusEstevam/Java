@@ -21,7 +21,7 @@ public class Caneta {
     public String getModelo(){
         return this.modelo;
     }
-    
+
     
     public void setCor(String c){
         this.cor = c;
