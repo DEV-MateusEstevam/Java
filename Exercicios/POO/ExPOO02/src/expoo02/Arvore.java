@@ -36,5 +36,4 @@ public class Arvore {
         
         System.out.println("O diametro do tronco da árvore é de "+this.DiametroTronco+"cm .");
     }
-     
 }
