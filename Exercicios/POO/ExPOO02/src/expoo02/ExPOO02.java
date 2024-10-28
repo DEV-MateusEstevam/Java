@@ -14,5 +14,4 @@ public class ExPOO02 {
         a1.Parada();
         a1.Status();
     }
-    
 }
