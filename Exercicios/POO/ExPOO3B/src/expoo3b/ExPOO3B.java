@@ -13,5 +13,4 @@ public class ExPOO3B {
         c1.pintar();
         c1.Status();
     }
-    
 }
