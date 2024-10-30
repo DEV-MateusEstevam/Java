@@ -7,5 +7,4 @@ public class Controle2910 {
         // Obj somente pode ter acesso o metodo showNome(...,...)        
         Obj.showNome(null, null);
     }
-    
 }
