@@ -124,5 +124,4 @@ public class ControleRemoto implements Controlador {
             System.out.println("[ERRO] Impossível dar PAUSE pois o controle está DESLIGADO!");
         } 
     }
-    
 }
