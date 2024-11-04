@@ -12,6 +12,5 @@ public class PortfolioPOOJava {
         r.desligar();
         r.pause();
         r.abrirMenu();
-       
     }
 }
