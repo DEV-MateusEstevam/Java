@@ -19,4 +19,5 @@ public class ExPOO04 {
        p2.depositar(500);
        p2.sacar(200);
        p2.estadoAtual();
-       
+
+    }  
