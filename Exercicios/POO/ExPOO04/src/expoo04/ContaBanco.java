@@ -142,6 +142,4 @@ public class ContaBanco {
             System.out.println("[ERRO] Impossivel cobrar mensalidade pois o status da conta é fechada.");
         }
     }
-    
-    
 }
