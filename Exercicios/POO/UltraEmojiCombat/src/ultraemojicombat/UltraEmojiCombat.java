@@ -24,5 +24,4 @@ public class UltraEmojiCombat {
         //m[1].status();
         
     }
-    
 }
