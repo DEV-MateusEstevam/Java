@@ -109,7 +109,6 @@ public class Lutador {
         this.empates = em;
     }
     
-    
     //metodos da classe
     public void apresentar(){
         System.out.println("");
