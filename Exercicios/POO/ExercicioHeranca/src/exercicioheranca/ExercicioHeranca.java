@@ -23,5 +23,4 @@ public class ExercicioHeranca {
         System.out.println("");
         
     }
-    
 }
