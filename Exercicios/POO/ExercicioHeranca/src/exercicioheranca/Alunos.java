@@ -22,7 +22,6 @@ public class Alunos extends DadosPessoais{
     }
     
     //construtores
-    
     public Alunos(){
         super();//chama o metodo construtor da classe DaddosPessoais
         this.setRa(0);
