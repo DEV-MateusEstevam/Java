@@ -4,7 +4,6 @@ public class DadosPessoais {
     public int idPessoa;
     public String nome, cpf;
     
-    
     //metodos especiais
     public int getIdPessoa(){
         return idPessoa;
@@ -41,5 +40,4 @@ public class DadosPessoais {
         this.setNome(nome);
         this.setCpf(cpf);
     }
-    
 }
