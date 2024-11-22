@@ -16,5 +16,4 @@ public class Canguru extends Mamifero{
         System.out.println("Usando Bolsa");
     }
     
-    
 }
