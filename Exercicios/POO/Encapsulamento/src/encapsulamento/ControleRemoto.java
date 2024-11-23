@@ -44,8 +44,7 @@ public class ControleRemoto implements Controlador{
     }
     
     @Override
-    public void abrirMenu(){
-        
+    public void abrirMenu(){      
         if(this.getLigado()==true){
             System.out.println("Controle Remoto esta ligado? "+this.getLigado());
             System.out.println("Controle Remoto esta tocando? "+this.getTocando());
@@ -124,7 +123,6 @@ public class ControleRemoto implements Controlador{
     
     @Override
     public void pause(){
-        
         if((this.getLigado()==true) && (this.getTocando() == true)){
             this.setTocando(false);
         }else if(this.getTocando() == false){
