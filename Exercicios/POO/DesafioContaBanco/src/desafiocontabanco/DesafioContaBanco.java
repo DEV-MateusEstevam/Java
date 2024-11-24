@@ -15,8 +15,6 @@ public class DesafioContaBanco {
         p1.situacaoConta();
         p1.fecharConta();
         
-        
-        
         ContaBanco p2 = new ContaBanco();
         p2.setNumeroConta(987654);
         p2.setDono("Ricardo");
@@ -29,7 +27,5 @@ public class DesafioContaBanco {
         p2.sacar(300);
         p2.fecharConta();
         p2.situacaoConta();
-        
     }
-    
 }
