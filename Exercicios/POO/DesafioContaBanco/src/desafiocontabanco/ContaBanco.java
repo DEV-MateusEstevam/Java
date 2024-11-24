@@ -45,8 +45,6 @@ public class ContaBanco {
         }else{
             System.out.println("[ERRO]Tipo de conta ("+this.getTipoConta()+") não é válido!\nDigite CC para Conta Corrente ou CP para Conta Poupança.");
         }
-        
-        
     }
     
     public void fecharConta(){
@@ -120,5 +118,4 @@ public class ContaBanco {
     public boolean getStatus(){return status;}
     
     public void setStatus(boolean status){this.status = status;}
-    
 }
