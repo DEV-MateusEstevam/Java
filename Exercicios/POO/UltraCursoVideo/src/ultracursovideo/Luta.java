@@ -27,7 +27,6 @@ public class Luta {
             this.setDesafiante(m2);
             System.out.println("[ERRO]A luta não pode ser marcada pois os Lutadores "+desafiado.getNome()+" e "+desafiante.getNome()+" são de categorias diferentes!");
         }
-    
     }
     
     public void lutar(){
@@ -62,7 +61,6 @@ public class Luta {
                     break;
             }
         }
-    
     }
     
     public Lutador getDesafiado(){return desafiado;}
