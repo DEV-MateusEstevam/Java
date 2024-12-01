@@ -1,4 +1,3 @@
-
 package sobreposicao301124;
 
 public class Canguru extends Mamifero{
