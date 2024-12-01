@@ -1,4 +1,3 @@
-
 package sobreposicao301124;
 
 public class Cachorro extends Mamifero {
@@ -23,9 +22,6 @@ public class Cachorro extends Mamifero {
     public void emitirSom(){
         System.out.println("Latindo ...");
     }
-    
-    
-    
     @Override
     public String toString(){
         return "Cachorro { Peso: "+this.getPeso()+"KG, Idade: "+this.getIdade()+", Quantidade de membros: "+this.getMembros()+", Cor do Pelo: "+this.getCorPelo()+"}";
