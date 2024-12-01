@@ -37,5 +37,4 @@ public abstract class Animal {
     public String toString(){
         return "Animal { Peso: "+peso+"KG, Idade: "+idade+", Quantidade de membros: "+membros+"}";
     }
-    
 }
