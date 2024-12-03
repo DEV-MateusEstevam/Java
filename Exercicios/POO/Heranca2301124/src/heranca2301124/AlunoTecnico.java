@@ -1,4 +1,3 @@
-
 package heranca2301124;
 
 public class AlunoTecnico extends Aluno{
