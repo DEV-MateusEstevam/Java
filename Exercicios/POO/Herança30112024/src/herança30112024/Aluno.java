@@ -35,5 +35,4 @@ public class Aluno extends Pessoa{
     public String toString(){
         return "Aluno {Nome: "+this.getNome()+", Idade: "+this.getIdade()+", Sexo: "+this.getSexo()+", Matricula: "+matricula+", Curso: "+curso+"}";
     }
-   
 }
