@@ -1,4 +1,3 @@
-
 package heranca2301124;
 
 public class Heranca2301124 {
@@ -31,7 +30,6 @@ public class Heranca2301124 {
         System.out.println(p1.toString());
         p1.receberAumento(350.00);
         System.out.println();
-        
         
         AlunoTecnico t1 = new AlunoTecnico();
         t1.setNome("Renato");
