@@ -1,4 +1,3 @@
-
 package heranca2301124;
 
 public class Professor extends Pessoa{
@@ -8,7 +7,6 @@ public class Professor extends Pessoa{
     public void receberAumento(double valorAumento){
         this.setSalario(this.getSalario() + valorAumento);
         System.out.println("Com o aumento de R$"+valorAumento+" o novo salário do professor "+this.getNome()+" é de R$"+this.getSalario());
-        
     }
     
     public Professor(String _nome, int _idade, String _sexo, String _especialidade, double _salario){
