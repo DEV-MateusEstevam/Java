@@ -1,5 +1,5 @@
-
 package herança30112024;
+
 public class Herança30112024 {
 
     public static void main(String[] args) {
@@ -26,7 +26,5 @@ public class Herança30112024 {
         Colaborador c1 = new Colaborador("Joana", 45, "Feminino", "Refeitorio", false);
         System.out.println(c1.toString());
         System.out.println();
-        
     }
-    
 }
