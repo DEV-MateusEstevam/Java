@@ -1,4 +1,3 @@
-
 package herança30112024;
 
 public class Colaborador extends Pessoa{
