@@ -8,7 +8,6 @@ public final class Livro implements Publicacao {
     private boolean aberto;
     private Pessoa leitor;
     
-    
     public String detalhes(){
         return "Livro(" + "\nTítulo = " + titulo + ",\nAutor = "+ autor 
                 + ",\nTotal de Paginas = "+ totPaginas +",\nPagina Atual = "
@@ -111,7 +110,7 @@ public final class Livro implements Publicacao {
     public void avancarPag(){
         this.setTotPaginas(this.getTotPaginas() + 1);
     }
-    
+
     @Override
     public void voltarPag(){
         this.setTotPaginas(this.getTotPaginas() - 1);
