@@ -9,8 +9,8 @@ public class Visualizacao {
         this.setFilme(_filme);
         this.espectador.setTotalVideoAssistido(this.espectador.getTotalVideoAssistido()+1);
         this.filme.setViews(this.filme.getViews() + 1);
-        
     }
+    
     //Sobrecarga
     public void avaliar(){
         this.filme.setAvaliacao(5);
