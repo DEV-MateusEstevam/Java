@@ -8,9 +8,6 @@ public class ProjetoLivro {
         pessoas[0] = new Pessoa("Yan", 26, "Masculino");
         pessoas[1] = new Pessoa("Jamily", 23, "Feminino");
         pessoas[2] = new Pessoa("Evandro", 34, "Masculino");
-    
-        
-        
         
         Livro[] livros = new Livro[3];
         
@@ -28,5 +25,4 @@ public class ProjetoLivro {
         System.out.println();
         System.out.println(livros[2].detalhes());
     }
-    
 }
