@@ -50,5 +50,4 @@ public class ProjetoFinal {
         System.out.println(vz[2].toString());
         System.out.println();
     }
-    
 }
