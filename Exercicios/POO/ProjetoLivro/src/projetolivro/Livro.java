@@ -14,7 +14,6 @@ public final class Livro implements Publicacao {
                 + ",\nTotal de Paginas = "+ totPaginas +",\nPagina Atual = "
                 + pagAtual + ",\nLivro esta aberto? "+ aberto + ",\nLeitor = "+ leitor.getNome()+",\nIdade = "
                 +leitor.getIdade()+",\nSexo = "+leitor.getSexo()+")";
-    
     }
     
     //construtor
@@ -106,8 +105,6 @@ public final class Livro implements Publicacao {
         }else{
             System.out.println("[ERRO]Impossivel folhear paginas do livro '"+this.getTitulo()+"' pois o mesmo se encontra FECHADO!");
         }
-        
-        
     }
     
     @Override
