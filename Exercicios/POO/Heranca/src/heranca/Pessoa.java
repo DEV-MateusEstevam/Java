@@ -15,14 +15,12 @@ public class Pessoa {
         this.nome = "";
         this.sexo = "";
         this.idade = 0;
-    
     }
     
     public Pessoa(String _nome, String _sexo, int _idade){
         this.setNome(_nome);
         this.setSexo(_sexo);
         this.setIdade(_idade);
-    
     }
     
     //metodos especiais
