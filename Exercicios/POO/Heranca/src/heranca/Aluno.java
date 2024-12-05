@@ -31,5 +31,4 @@ public class Aluno extends Pessoa{
     public String getCurso(){return curso;}
     
     public final void setCurso(String curso){this.curso = curso;}
-
 }
