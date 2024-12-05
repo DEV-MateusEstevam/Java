@@ -6,7 +6,6 @@ public class Professor extends Pessoa{
     
     public void receberAumento(double aumento){
         this.setSalario(this.getSalario() + aumento);
-    
     }
    
     //Construtor
