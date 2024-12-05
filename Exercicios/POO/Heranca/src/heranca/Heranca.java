@@ -31,5 +31,4 @@ public class Heranca {
         p4.setSetor("Almoxarifado");
         System.out.println(p4.toString());
     }
-    
 }
