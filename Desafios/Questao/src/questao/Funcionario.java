@@ -1,4 +1,3 @@
-
 package questao;
 
 public class Funcionario {
@@ -24,5 +23,4 @@ public class Funcionario {
 	public String toString(){
 		return "Funcionario [nome="+nome+", idade="+idade+"]";
 	}
-    
 }
