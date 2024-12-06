@@ -13,5 +13,4 @@ public class Interface {
         System.out.println(m1.calcular(10, 10));
         System.out.println(d1.calcular(10, 10));
     }
-    
 }
