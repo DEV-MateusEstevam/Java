@@ -13,5 +13,4 @@ public class DesafioProfLucio {
         
         colaborador2.exibirInfo();
     }
-    
 }
