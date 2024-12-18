@@ -7,7 +7,6 @@ public class TelaSoma extends javax.swing.JFrame {
     }
 
     @SuppressWarnings("unchecked")
-    // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
         labelMensagem = new javax.swing.JLabel();
@@ -82,7 +81,7 @@ public class TelaSoma extends javax.swing.JFrame {
         );
 
         pack();
-    }// </editor-fold>//GEN-END:initComponents
+    }
 
     private void bntSomaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bntSomaActionPerformed
         int n1 = Integer.parseInt(txtN1.getText());
@@ -92,14 +91,9 @@ public class TelaSoma extends javax.swing.JFrame {
        
         labelResultado.setText(Integer.toString(soma));
         
-    }//GEN-LAST:event_bntSomaActionPerformed
+    }
 
     public static void main(String args[]) {
-        /* Set the Nimbus look and feel */
-        //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
-        /* If Nimbus (introduced in Java SE 6) is not available, stay with the default look and feel.
-         * For details see http://download.oracle.com/javase/tutorial/uiswing/lookandfeel/plaf.html 
-         */
         try {
             for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
                 if ("Nimbus".equals(info.getName())) {
@@ -116,9 +110,7 @@ public class TelaSoma extends javax.swing.JFrame {
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
             java.util.logging.Logger.getLogger(TelaSoma.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
-        //</editor-fold>
-
-        /* Create and display the form */
+       
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
                 new TelaSoma().setVisible(true);
@@ -126,12 +118,10 @@ public class TelaSoma extends javax.swing.JFrame {
         });
     }
 
-    // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton bntSoma;
     private javax.swing.JLabel labelMensagem;
     private javax.swing.JLabel labelResultado;
     private javax.swing.JLabel labelSoma;
     private javax.swing.JTextField txtN1;
     private javax.swing.JTextField txtN2;
-    // End of variables declaration//GEN-END:variables
 }
