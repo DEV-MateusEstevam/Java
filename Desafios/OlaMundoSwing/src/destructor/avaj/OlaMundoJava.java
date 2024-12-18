@@ -1,4 +1,3 @@
-
 package destructor.avaj;
 
 public class OlaMundoJava extends javax.swing.JFrame {
@@ -58,7 +57,6 @@ public class OlaMundoJava extends javax.swing.JFrame {
     private void botaoMensagemActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_botaoMensagemActionPerformed
         labelMensagem.setText("Olá Mundo!!!");
     }//GEN-LAST:event_botaoMensagemActionPerformed
-
 
     public static void main(String args[]) {
         
