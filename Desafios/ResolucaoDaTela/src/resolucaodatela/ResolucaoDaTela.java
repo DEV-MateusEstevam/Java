@@ -9,5 +9,4 @@ public class ResolucaoDaTela {
         Dimension dimensao = kit.getScreenSize();
         System.out.println("A resolução da Tela deste computador é de "+dimensao.width+" de largura por "+dimensao.height+" de altura.");       
     }
-    
 }
