@@ -9,7 +9,7 @@ public class TelaRelogio extends javax.swing.JFrame {
     }
 
     @SuppressWarnings("unchecked")
-    // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
+    
     private void initComponents() {
 
         jLabel1 = new javax.swing.JLabel();
@@ -75,13 +75,12 @@ public class TelaRelogio extends javax.swing.JFrame {
         );
 
         pack();
-    }// </editor-fold>//GEN-END:initComponents
+    }
 
     private void BotaoMensagemActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BotaoMensagemActionPerformed
         Date relogio = new Date();
         labelMensagem.setText(relogio.toString());
-        
-    }//GEN-LAST:event_BotaoMensagemActionPerformed
+    }
 
     public static void main(String args[]) {
         
@@ -92,10 +91,8 @@ public class TelaRelogio extends javax.swing.JFrame {
         });
     }
 
-    // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton BotaoMensagem;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel labelMensagem;
-    // End of variables declaration//GEN-END:variables
 }
