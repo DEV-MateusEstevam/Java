@@ -9,7 +9,6 @@ public class TelaIdioma extends javax.swing.JFrame {
     }
 
     @SuppressWarnings("unchecked")
-    // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
         jLabel1 = new javax.swing.JLabel();
@@ -72,12 +71,12 @@ public class TelaIdioma extends javax.swing.JFrame {
         );
 
         pack();
-    }// </editor-fold>//GEN-END:initComponents
+    }
 
     private void botaoMensagemActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_botaoMensagemActionPerformed
         Locale idioma = Locale.getDefault();
         labelMensagem.setText(idioma.getDisplayLanguage(idioma));
-    }//GEN-LAST:event_botaoMensagemActionPerformed
+    }
 
     public static void main(String args[]) {
         
@@ -88,10 +87,8 @@ public class TelaIdioma extends javax.swing.JFrame {
         });
     }
 
-    // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton botaoMensagem;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel labelMensagem;
-    // End of variables declaration//GEN-END:variables
 }
