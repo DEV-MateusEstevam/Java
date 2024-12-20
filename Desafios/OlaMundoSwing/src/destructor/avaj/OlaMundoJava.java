@@ -67,8 +67,6 @@ public class OlaMundoJava extends javax.swing.JFrame {
         });
     }
 
-    // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton botaoMensagem;
     private javax.swing.JLabel labelMensagem;
-    // End of variables declaration//GEN-END:variables
 }
