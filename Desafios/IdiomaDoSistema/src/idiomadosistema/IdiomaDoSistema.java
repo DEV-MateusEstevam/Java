@@ -7,5 +7,4 @@ public class IdiomaDoSistema {
        Locale idioma = Locale.getDefault();
        System.out.println("O sistema do computador está no idioma: "+ idioma.getDisplayLanguage());
     }
-    
 }
