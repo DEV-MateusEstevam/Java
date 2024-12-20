@@ -7,7 +7,7 @@ public class OlaMundoJava extends javax.swing.JFrame {
     }
 
     @SuppressWarnings("unchecked")
-    // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
+  
     private void initComponents() {
 
         labelMensagem = new javax.swing.JLabel();
@@ -15,11 +15,11 @@ public class OlaMundoJava extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        labelMensagem.setFont(new java.awt.Font("Verdana", 2, 24)); // NOI18N
+        labelMensagem.setFont(new java.awt.Font("Verdana", 2, 24)); 
         labelMensagem.setForeground(new java.awt.Color(0, 0, 255));
         labelMensagem.setText("Aqui vai aparecer a mensagem...");
 
-        botaoMensagem.setFont(new java.awt.Font("Verdana", 3, 18)); // NOI18N
+        botaoMensagem.setFont(new java.awt.Font("Verdana", 3, 18)); 
         botaoMensagem.setText("Clique aqui!");
         botaoMensagem.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -52,11 +52,11 @@ public class OlaMundoJava extends javax.swing.JFrame {
         );
 
         pack();
-    }// </editor-fold>//GEN-END:initComponents
+    }
 
-    private void botaoMensagemActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_botaoMensagemActionPerformed
+    private void botaoMensagemActionPerformed(java.awt.event.ActionEvent evt) {
         labelMensagem.setText("Olá Mundo!!!");
-    }//GEN-LAST:event_botaoMensagemActionPerformed
+    }
 
     public static void main(String args[]) {
         
