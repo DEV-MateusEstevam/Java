@@ -1,4 +1,3 @@
-
 package classe;
 
 public class TelaCalculadora extends javax.swing.JFrame {
@@ -8,7 +7,7 @@ public class TelaCalculadora extends javax.swing.JFrame {
     }
 
     @SuppressWarnings("unchecked")
-    // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
+    
     private void initComponents() {
 
         jLabel1 = new javax.swing.JLabel();
@@ -21,15 +20,15 @@ public class TelaCalculadora extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        jLabel1.setFont(new java.awt.Font("Verdana", 1, 12)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("Verdana", 1, 12));
         jLabel1.setText("Ano de Nascimento:");
 
-        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagem/usuario1.png"))); // NOI18N
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagem/usuario1.png"))); 
 
         spinnerAno.setModel(new javax.swing.SpinnerNumberModel(1900, 1900, 2024, 1));
 
-        botaoCalcular.setFont(new java.awt.Font("Verdana", 3, 12)); // NOI18N
-        botaoCalcular.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagem/calculadora 1.png"))); // NOI18N
+        botaoCalcular.setFont(new java.awt.Font("Verdana", 3, 12)); 
+        botaoCalcular.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagem/calculadora 1.png"))); 
         botaoCalcular.setText("CALCULAR");
         botaoCalcular.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -37,14 +36,14 @@ public class TelaCalculadora extends javax.swing.JFrame {
             }
         });
 
-        jLabel3.setFont(new java.awt.Font("Verdana", 3, 14)); // NOI18N
+        jLabel3.setFont(new java.awt.Font("Verdana", 3, 14)); 
         jLabel3.setText("IDADE:");
 
-        labelIdade.setFont(new java.awt.Font("Verdana", 1, 18)); // NOI18N
+        labelIdade.setFont(new java.awt.Font("Verdana", 1, 18)); 
         labelIdade.setForeground(new java.awt.Color(255, 0, 0));
         labelIdade.setText("0");
 
-        jLabel5.setFont(new java.awt.Font("Verdana", 3, 18)); // NOI18N
+        jLabel5.setFont(new java.awt.Font("Verdana", 3, 18)); 
         jLabel5.setText("Calcule sua Idade:");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
@@ -97,13 +96,13 @@ public class TelaCalculadora extends javax.swing.JFrame {
         );
 
         pack();
-    }// </editor-fold>//GEN-END:initComponents
+    }
 
-    private void botaoCalcularActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_botaoCalcularActionPerformed
+    private void botaoCalcularActionPerformed(java.awt.event.ActionEvent evt) {
         int ano = Integer.parseInt(spinnerAno.getValue().toString());
         int idade = 2024 - ano;
         labelIdade.setText(Integer.toString(idade));
-    }//GEN-LAST:event_botaoCalcularActionPerformed
+    }
 
     public static void main(String args[]) {
         
@@ -114,7 +113,6 @@ public class TelaCalculadora extends javax.swing.JFrame {
         });
     }
 
-    // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton botaoCalcular;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
@@ -122,5 +120,4 @@ public class TelaCalculadora extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel labelIdade;
     private javax.swing.JSpinner spinnerAno;
-    // End of variables declaration//GEN-END:variables
 }
