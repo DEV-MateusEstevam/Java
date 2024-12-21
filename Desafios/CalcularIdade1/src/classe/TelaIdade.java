@@ -1,4 +1,3 @@
-
 package classe;
 
 import java.util.Calendar;
@@ -13,7 +12,6 @@ public class TelaIdade extends javax.swing.JFrame {
     }
 
     @SuppressWarnings("unchecked")
-    // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
         jLabel1 = new javax.swing.JLabel();
@@ -29,21 +27,21 @@ public class TelaIdade extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        jLabel1.setFont(new java.awt.Font("Verdana", 3, 18)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("Verdana", 3, 18));
         jLabel1.setText("Descubra sua Idade:");
 
-        jLabel2.setFont(new java.awt.Font("Verdana", 3, 12)); // NOI18N
+        jLabel2.setFont(new java.awt.Font("Verdana", 3, 12));
         jLabel2.setText("Ano Atual:");
 
-        jLabel4.setFont(new java.awt.Font("Verdana", 3, 12)); // NOI18N
+        jLabel4.setFont(new java.awt.Font("Verdana", 3, 12));
         jLabel4.setText("Ano de Nascimento:");
 
         spinnerNascimento.setModel(new javax.swing.SpinnerNumberModel(1900, 1900, 2024, 1));
 
-        jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagem/usuario1.png"))); // NOI18N
+        jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagem/usuario1.png")));
 
-        BtnCalcular.setFont(new java.awt.Font("Verdana", 1, 12)); // NOI18N
-        BtnCalcular.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagem/calculadora 1.png"))); // NOI18N
+        BtnCalcular.setFont(new java.awt.Font("Verdana", 1, 12));
+        BtnCalcular.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagem/calculadora 1.png")));
         BtnCalcular.setText("CALCULAR");
         BtnCalcular.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -51,13 +49,13 @@ public class TelaIdade extends javax.swing.JFrame {
             }
         });
 
-        jLabel6.setFont(new java.awt.Font("Verdana", 3, 12)); // NOI18N
+        jLabel6.setFont(new java.awt.Font("Verdana", 3, 12)); 
         jLabel6.setText("No final deste ano, sua idade será:");
 
-        labelIdade.setFont(new java.awt.Font("Verdana", 1, 18)); // NOI18N
+        labelIdade.setFont(new java.awt.Font("Verdana", 1, 18)); 
         labelIdade.setText("???");
 
-        jLabel3.setFont(new java.awt.Font("Verdana", 3, 14)); // NOI18N
+        jLabel3.setFont(new java.awt.Font("Verdana", 3, 14)); 
         jLabel3.setText("anos");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
@@ -120,9 +118,9 @@ public class TelaIdade extends javax.swing.JFrame {
         );
 
         pack();
-    }// </editor-fold>//GEN-END:initComponents
+    }
 
-    private void BtnCalcularActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BtnCalcularActionPerformed
+    private void BtnCalcularActionPerformed(java.awt.event.ActionEvent evt) {
         
         Calendar calendario = Calendar.getInstance();
         
@@ -147,7 +145,6 @@ public class TelaIdade extends javax.swing.JFrame {
         });
     }
 
-    // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton BtnCalcular;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
@@ -158,5 +155,4 @@ public class TelaIdade extends javax.swing.JFrame {
     private javax.swing.JLabel labelAnoAtual;
     private javax.swing.JLabel labelIdade;
     private javax.swing.JSpinner spinnerNascimento;
-    // End of variables declaration//GEN-END:variables
 }
