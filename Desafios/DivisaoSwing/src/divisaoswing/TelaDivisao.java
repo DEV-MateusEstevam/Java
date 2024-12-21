@@ -1,4 +1,3 @@
-
 package divisaoswing;
 
 public class TelaDivisao extends javax.swing.JFrame {
@@ -8,7 +7,6 @@ public class TelaDivisao extends javax.swing.JFrame {
     }
 
     @SuppressWarnings("unchecked")
-    // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
         jLabel1 = new javax.swing.JLabel();
@@ -24,20 +22,20 @@ public class TelaDivisao extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        jLabel1.setFont(new java.awt.Font("Verdana", 1, 18)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("Verdana", 1, 18));
         jLabel1.setText("Realizando a Divisão:");
 
-        jLabel2.setFont(new java.awt.Font("Verdana", 3, 14)); // NOI18N
+        jLabel2.setFont(new java.awt.Font("Verdana", 3, 14)); 
         jLabel2.setText("Numerador:");
 
-        jLabel3.setFont(new java.awt.Font("Verdana", 3, 14)); // NOI18N
+        jLabel3.setFont(new java.awt.Font("Verdana", 3, 14)); 
         jLabel3.setText("Denominador:");
 
-        txtNumerador.setFont(new java.awt.Font("Verdana", 1, 18)); // NOI18N
+        txtNumerador.setFont(new java.awt.Font("Verdana", 1, 18)); 
 
-        txtDenominador.setFont(new java.awt.Font("Verdana", 1, 18)); // NOI18N
+        txtDenominador.setFont(new java.awt.Font("Verdana", 1, 18)); 
 
-        BtnDividir.setFont(new java.awt.Font("Verdana", 1, 18)); // NOI18N
+        BtnDividir.setFont(new java.awt.Font("Verdana", 1, 18)); 
         BtnDividir.setText("Dividir");
         BtnDividir.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -45,18 +43,18 @@ public class TelaDivisao extends javax.swing.JFrame {
             }
         });
 
-        jLabel4.setFont(new java.awt.Font("Verdana", 3, 14)); // NOI18N
+        jLabel4.setFont(new java.awt.Font("Verdana", 3, 14)); 
         jLabel4.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel4.setText("Divisão:");
 
-        jLabel5.setFont(new java.awt.Font("Verdana", 3, 14)); // NOI18N
+        jLabel5.setFont(new java.awt.Font("Verdana", 3, 14)); 
         jLabel5.setText("Resto:");
 
-        labelDivisao.setFont(new java.awt.Font("Verdana", 1, 18)); // NOI18N
+        labelDivisao.setFont(new java.awt.Font("Verdana", 1, 18)); 
         labelDivisao.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         labelDivisao.setText("0");
 
-        labelResto.setFont(new java.awt.Font("Verdana", 1, 18)); // NOI18N
+        labelResto.setFont(new java.awt.Font("Verdana", 1, 18)); 
         labelResto.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         labelResto.setText("0");
 
@@ -121,9 +119,9 @@ public class TelaDivisao extends javax.swing.JFrame {
         );
 
         pack();
-    }// </editor-fold>//GEN-END:initComponents
+    }
 
-    private void BtnDividirActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BtnDividirActionPerformed
+    private void BtnDividirActionPerformed(java.awt.event.ActionEvent evt) {
         int numerador = Integer.parseInt(txtNumerador.getText());
         int denominador = Integer.parseInt(txtDenominador.getText());
         
@@ -132,7 +130,7 @@ public class TelaDivisao extends javax.swing.JFrame {
         
         labelDivisao.setText(Float.toString(divisao));
         labelResto.setText(Float.toString(resto));
-    }//GEN-LAST:event_BtnDividirActionPerformed
+    }
 
     public static void main(String args[]) {
         
@@ -142,8 +140,7 @@ public class TelaDivisao extends javax.swing.JFrame {
             }
         });
     }
-
-    // Variables declaration - do not modify//GEN-BEGIN:variables
+    
     private javax.swing.JButton BtnDividir;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
@@ -154,5 +151,4 @@ public class TelaDivisao extends javax.swing.JFrame {
     private javax.swing.JLabel labelResto;
     private javax.swing.JTextField txtDenominador;
     private javax.swing.JTextField txtNumerador;
-    // End of variables declaration//GEN-END:variables
 }
