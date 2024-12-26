@@ -16,7 +16,6 @@ public class TelaVetor extends javax.swing.JFrame {
     }
 
     @SuppressWarnings("unchecked")
-    // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
         spinnerNumero = new javax.swing.JSpinner();
@@ -31,13 +30,13 @@ public class TelaVetor extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        spinnerNumero.setFont(new java.awt.Font("Verdana", 1, 18)); // NOI18N
+        spinnerNumero.setFont(new java.awt.Font("Verdana", 1, 18));
         spinnerNumero.setModel(new javax.swing.SpinnerNumberModel());
 
-        jLabel1.setFont(new java.awt.Font("Times New Roman", 3, 18)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("Times New Roman", 3, 18)); 
         jLabel1.setText("DESAFIO VETOR");
 
-        botaoAdicionar.setFont(new java.awt.Font("Times New Roman", 3, 18)); // NOI18N
+        botaoAdicionar.setFont(new java.awt.Font("Times New Roman", 3, 18));
         botaoAdicionar.setText("ADICIONAR");
         botaoAdicionar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -45,7 +44,7 @@ public class TelaVetor extends javax.swing.JFrame {
             }
         });
 
-        botaoRemover.setFont(new java.awt.Font("Times New Roman", 3, 18)); // NOI18N
+        botaoRemover.setFont(new java.awt.Font("Times New Roman", 3, 18)); 
         botaoRemover.setText("REMOVER");
         botaoRemover.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -53,7 +52,7 @@ public class TelaVetor extends javax.swing.JFrame {
             }
         });
 
-        botaoOrdenar.setFont(new java.awt.Font("Times New Roman", 3, 18)); // NOI18N
+        botaoOrdenar.setFont(new java.awt.Font("Times New Roman", 3, 18)); 
         botaoOrdenar.setText("ORDENAR");
         botaoOrdenar.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         botaoOrdenar.addActionListener(new java.awt.event.ActionListener() {
@@ -62,10 +61,10 @@ public class TelaVetor extends javax.swing.JFrame {
             }
         });
 
-        jLabel2.setFont(new java.awt.Font("Verdana", 1, 18)); // NOI18N
+        jLabel2.setFont(new java.awt.Font("Verdana", 1, 18));
         jLabel2.setText("VETOR");
 
-        labelPosicao.setFont(new java.awt.Font("Verdana", 1, 24)); // NOI18N
+        labelPosicao.setFont(new java.awt.Font("Verdana", 1, 24)); 
         labelPosicao.setText("[ 0 ]");
 
         listaVetor.setModel(lista);
@@ -123,36 +122,35 @@ public class TelaVetor extends javax.swing.JFrame {
         );
 
         pack();
-    }// </editor-fold>//GEN-END:initComponents
+    }
 
-    private void botaoAdicionarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_botaoAdicionarActionPerformed
+    private void botaoAdicionarActionPerformed(java.awt.event.ActionEvent evt) {
        vetor[selecionado] = Integer.parseInt(spinnerNumero.getValue().toString());
        lista.removeAllElements();//remove todos os elementos da lista
        for(int contador = 0; contador < vetor.length; contador++ ){
            lista.addElement(vetor[contador]);//escreve o valor do vetor na posicão do contador
        }
-    }//GEN-LAST:event_botaoAdicionarActionPerformed
+    }
 
-    private void listaVetorMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_listaVetorMouseClicked
+    private void listaVetorMouseClicked(java.awt.event.MouseEvent evt) {
         selecionado = listaVetor.getSelectedIndex();//pega o item que esta selecionado na listaVetor
         labelPosicao.setText("[ " + selecionado + " ]"));//atribui ao labelPosicao
-    }//GEN-LAST:event_listaVetorMouseClicked
+    }
 
-    private void botaoRemoverActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_botaoRemoverActionPerformed
+    private void botaoRemoverActionPerformed(java.awt.event.ActionEvent evt) {
         vetor[selecionado] = 0;
         lista.removeAllElements();
         for(int contador = 0; contador < vetor.length; contador++ ){
            lista.addElement(vetor[contador]);
         }
-    }//GEN-LAST:event_botaoRemoverActionPerformed
-
-    private void botaoOrdenarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_botaoOrdenarActionPerformed
+    }
+    private void botaoOrdenarActionPerformed(java.awt.event.ActionEvent evt) {
         Arrays.sort(vetor);
         lista.removeAllElements();
         for(int contador = 0; contador < vetor.length; contador++ ){
            lista.addElement(vetor[contador]);
         }
-    }//GEN-LAST:event_botaoOrdenarActionPerformed
+    }
 
     public static void main(String args[]) {
         
@@ -163,7 +161,6 @@ public class TelaVetor extends javax.swing.JFrame {
         });
     }
 
-    // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton botaoAdicionar;
     private javax.swing.JButton botaoOrdenar;
     private javax.swing.JButton botaoRemover;
@@ -173,5 +170,4 @@ public class TelaVetor extends javax.swing.JFrame {
     private javax.swing.JLabel labelPosicao;
     private javax.swing.JList<String> listaVetor;
     private javax.swing.JSpinner spinnerNumero;
-    // End of variables declaration//GEN-END:variables
 }
