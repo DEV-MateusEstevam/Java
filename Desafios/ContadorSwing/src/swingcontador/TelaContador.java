@@ -7,7 +7,6 @@ public class TelaContador extends javax.swing.JFrame {
     }
 
     @SuppressWarnings("unchecked")
-    // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
         jLabel1 = new javax.swing.JLabel();
@@ -17,14 +16,14 @@ public class TelaContador extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        jLabel1.setFont(new java.awt.Font("Times New Roman", 3, 18)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("Times New Roman", 3, 18)); 
         jLabel1.setForeground(new java.awt.Color(0, 0, 255));
         jLabel1.setText("Clique no Botão e começe a contagem:");
 
-        jLabel2.setFont(new java.awt.Font("Times New Roman", 1, 18)); // NOI18N
+        jLabel2.setFont(new java.awt.Font("Times New Roman", 1, 18));
         jLabel2.setText("Contagem:");
 
-        btnContar.setFont(new java.awt.Font("Verdana", 3, 18)); // NOI18N
+        btnContar.setFont(new java.awt.Font("Verdana", 3, 18));
         btnContar.setText("CONTAR");
         btnContar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -32,7 +31,7 @@ public class TelaContador extends javax.swing.JFrame {
             }
         });
 
-        labelContagem.setFont(new java.awt.Font("Verdana", 1, 24)); // NOI18N
+        labelContagem.setFont(new java.awt.Font("Verdana", 1, 24)); 
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -69,9 +68,9 @@ public class TelaContador extends javax.swing.JFrame {
         );
 
         pack();
-    }// </editor-fold>//GEN-END:initComponents
+    }
 
-    private void btnContarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnContarActionPerformed
+    private void btnContarActionPerformed(java.awt.event.ActionEvent evt) {
         int contador = 0;
         String mostraContagem = "";
         while(contador <=10){
@@ -80,7 +79,7 @@ public class TelaContador extends javax.swing.JFrame {
         }
         labelContagem.setText(mostraContagem);
         
-    }//GEN-LAST:event_btnContarActionPerformed
+    }
 
     public static void main(String args[]) {
         
@@ -91,10 +90,8 @@ public class TelaContador extends javax.swing.JFrame {
         });
     }
 
-    // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton btnContar;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel labelContagem;
-    // End of variables declaration//GEN-END:variables
 }
