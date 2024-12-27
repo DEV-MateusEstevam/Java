@@ -1,15 +1,13 @@
 package contadorswing;
 import javax.swing.DefaultListModel;
+
 public class NewJFrame extends javax.swing.JFrame {
 
-    
     public NewJFrame() {
         initComponents();
     }
-
     
     @SuppressWarnings("unchecked")
-    // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
         jLabel1 = new javax.swing.JLabel();
@@ -28,21 +26,21 @@ public class NewJFrame extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        jLabel1.setFont(new java.awt.Font("Times New Roman", 3, 24)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("Times New Roman", 3, 24)); 
         jLabel1.setForeground(new java.awt.Color(0, 0, 204));
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel1.setText("CONTADOR SWING");
 
-        jLabel2.setFont(new java.awt.Font("Verdana", 1, 18)); // NOI18N
+        jLabel2.setFont(new java.awt.Font("Verdana", 1, 18)); 
         jLabel2.setText("INICIO:");
 
-        jLabel3.setFont(new java.awt.Font("Verdana", 1, 18)); // NOI18N
+        jLabel3.setFont(new java.awt.Font("Verdana", 1, 18)); 
         jLabel3.setText("FIM:");
 
-        jLabel4.setFont(new java.awt.Font("Verdana", 1, 18)); // NOI18N
+        jLabel4.setFont(new java.awt.Font("Verdana", 1, 18)); 
         jLabel4.setText("PASSO:");
 
-        sliderFim.setFont(new java.awt.Font("Verdana", 1, 14)); // NOI18N
+        sliderFim.setFont(new java.awt.Font("Verdana", 1, 14)); 
         sliderFim.setMaximum(20);
         sliderFim.setMinimum(6);
         sliderFim.setValue(6);
@@ -61,19 +59,19 @@ public class NewJFrame extends javax.swing.JFrame {
             }
         });
 
-        labelInicio.setFont(new java.awt.Font("Verdana", 1, 24)); // NOI18N
+        labelInicio.setFont(new java.awt.Font("Verdana", 1, 24)); 
         labelInicio.setForeground(new java.awt.Color(255, 0, 0));
         labelInicio.setText("0");
 
-        labelFim.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
+        labelFim.setFont(new java.awt.Font("Tahoma", 1, 24)); 
         labelFim.setForeground(new java.awt.Color(255, 0, 0));
         labelFim.setText("6");
 
-        labelPasso.setFont(new java.awt.Font("Verdana", 1, 24)); // NOI18N
+        labelPasso.setFont(new java.awt.Font("Verdana", 1, 24)); 
         labelPasso.setForeground(new java.awt.Color(255, 0, 0));
         labelPasso.setText("1");
 
-        botaoContar.setFont(new java.awt.Font("Times New Roman", 3, 18)); // NOI18N
+        botaoContar.setFont(new java.awt.Font("Times New Roman", 3, 18)); 
         botaoContar.setForeground(new java.awt.Color(0, 0, 255));
         botaoContar.setText("CONTAR");
         botaoContar.addActionListener(new java.awt.event.ActionListener() {
@@ -84,7 +82,7 @@ public class NewJFrame extends javax.swing.JFrame {
 
         jScrollPane1.setViewportView(listaResultado);
 
-        sliderInicio.setFont(new java.awt.Font("Verdana", 1, 14)); // NOI18N
+        sliderInicio.setFont(new java.awt.Font("Verdana", 1, 14)); 
         sliderInicio.setMaximum(20);
         sliderInicio.setValue(0);
         sliderInicio.addChangeListener(new javax.swing.event.ChangeListener() {
@@ -166,24 +164,24 @@ public class NewJFrame extends javax.swing.JFrame {
         );
 
         pack();
-    }// </editor-fold>//GEN-END:initComponents
+    }
 
-    private void sliderFimStateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_sliderFimStateChanged
+    private void sliderFimStateChanged(javax.swing.event.ChangeEvent evt) {
         int fim = sliderFim.getValue();
         labelFim.setText(Integer.toString(fim));
-    }//GEN-LAST:event_sliderFimStateChanged
+    }
 
-    private void sliderPassoStateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_sliderPassoStateChanged
+    private void sliderPassoStateChanged(javax.swing.event.ChangeEvent evt) {
         int passo = sliderPasso.getValue();
         labelPasso.setText(Integer.toString(passo));
-    }//GEN-LAST:event_sliderPassoStateChanged
+    }
 
-    private void sliderInicioStateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_sliderInicioStateChanged
+    private void sliderInicioStateChanged(javax.swing.event.ChangeEvent evt) {
         int inicio = sliderInicio.getValue();
         labelInicio.setText(Integer.toString(inicio));
-    }//GEN-LAST:event_sliderInicioStateChanged
+    }
 
-    private void botaoContarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_botaoContarActionPerformed
+    private void botaoContarActionPerformed(java.awt.event.ActionEvent evt) {
         int inicio = sliderInicio.getValue();
         int fim = sliderFim.getValue();
         int passo = sliderPasso.getValue();
@@ -195,9 +193,8 @@ public class NewJFrame extends javax.swing.JFrame {
         }
         
         listaResultado.setModel(lista);//setModel pq a propriedade da tela é uma lista
-    }//GEN-LAST:event_botaoContarActionPerformed
+    }
 
-   
     public static void main(String args[]) {
        
         java.awt.EventQueue.invokeLater(new Runnable() {
@@ -207,7 +204,6 @@ public class NewJFrame extends javax.swing.JFrame {
         });
     }
 
-    // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton botaoContar;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
@@ -221,5 +217,4 @@ public class NewJFrame extends javax.swing.JFrame {
     private javax.swing.JSlider sliderFim;
     private javax.swing.JSlider sliderInicio;
     private javax.swing.JSlider sliderPasso;
-    // End of variables declaration//GEN-END:variables
 }
