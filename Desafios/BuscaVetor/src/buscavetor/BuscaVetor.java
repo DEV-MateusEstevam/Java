@@ -1,4 +1,3 @@
-
 package buscavetor;
 
 import java.util.Arrays;
@@ -17,9 +16,7 @@ public class BuscaVetor {
             System.out.print(vetores+ ", ");
         }
         
-        
         System.out.println();
         System.out.println("O número 12 ocupa a "+posicao+"° Vetor que contem "+vetor.length+" casas.");
     }
-    
 }
