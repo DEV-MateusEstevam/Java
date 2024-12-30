@@ -1,4 +1,3 @@
-
 package preenchendovetor;
 import java.util.Arrays;
 
@@ -11,8 +10,8 @@ public class PreenchendoVetor {
         for(int preenche : conjunto){
             System.out.print(preenche+" | ");
         }
+        
         System.out.println();
         System.out.println();
     }
-    
 }
