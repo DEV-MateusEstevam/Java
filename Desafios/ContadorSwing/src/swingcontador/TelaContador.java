@@ -66,7 +66,6 @@ public class TelaContador extends javax.swing.JFrame {
                 .addComponent(btnContar)
                 .addContainerGap())
         );
-
         pack();
     }
 
@@ -78,7 +77,6 @@ public class TelaContador extends javax.swing.JFrame {
             contador++;
         }
         labelContagem.setText(mostraContagem);
-        
     }
 
     public static void main(String args[]) {
