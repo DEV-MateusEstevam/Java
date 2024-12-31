@@ -7,7 +7,6 @@ public class TelaFatorial extends javax.swing.JFrame {
     }
     
     @SuppressWarnings("unchecked")
-    // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
         jLabel1 = new javax.swing.JLabel();
@@ -19,14 +18,14 @@ public class TelaFatorial extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        jLabel1.setFont(new java.awt.Font("Times New Roman", 3, 24)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("Times New Roman", 3, 24));
         jLabel1.setText("Descobrindo o Fatorial");
         jLabel1.setToolTipText("");
 
-        jLabel2.setFont(new java.awt.Font("Times New Roman", 1, 18)); // NOI18N
+        jLabel2.setFont(new java.awt.Font("Times New Roman", 1, 18)); 
         jLabel2.setText("Selecione um número:");
 
-        spinnerNumero.setFont(new java.awt.Font("Verdana", 1, 24)); // NOI18N
+        spinnerNumero.setFont(new java.awt.Font("Verdana", 1, 24)); 
         spinnerNumero.setModel(new javax.swing.SpinnerNumberModel(0, 0, 12, 1));
         spinnerNumero.addChangeListener(new javax.swing.event.ChangeListener() {
             public void stateChanged(javax.swing.event.ChangeEvent evt) {
@@ -34,14 +33,14 @@ public class TelaFatorial extends javax.swing.JFrame {
             }
         });
 
-        jLabel3.setFont(new java.awt.Font("Verdana", 1, 24)); // NOI18N
+        jLabel3.setFont(new java.awt.Font("Verdana", 1, 24)); 
         jLabel3.setText("! =");
 
-        labelResultado.setFont(new java.awt.Font("Verdana", 1, 24)); // NOI18N
+        labelResultado.setFont(new java.awt.Font("Verdana", 1, 24)); 
         labelResultado.setForeground(new java.awt.Color(255, 0, 0));
         labelResultado.setText("1");
 
-        labelCalculo.setFont(new java.awt.Font("Verdana", 1, 18)); // NOI18N
+        labelCalculo.setFont(new java.awt.Font("Verdana", 1, 18)); 
         labelCalculo.setForeground(new java.awt.Color(0, 0, 204));
         labelCalculo.setText("0");
 
@@ -81,9 +80,9 @@ public class TelaFatorial extends javax.swing.JFrame {
         );
 
         pack();
-    }// </editor-fold>//GEN-END:initComponents
+    }
 
-    private void spinnerNumeroStateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_spinnerNumeroStateChanged
+    private void spinnerNumeroStateChanged(javax.swing.event.ChangeEvent evt) {
         int numero = Integer.parseInt(spinnerNumero.getValue().toString());
         
         int contador = numero;
@@ -102,7 +101,7 @@ public class TelaFatorial extends javax.swing.JFrame {
         }
         labelCalculo.setText(mostraCalculo);
         labelResultado.setText(Integer.toString(fatorial));
-    }//GEN-LAST:event_spinnerNumeroStateChanged
+    }
 
     public static void main(String args[]) {
        
@@ -113,12 +112,10 @@ public class TelaFatorial extends javax.swing.JFrame {
         });
     }
 
-    // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel labelCalculo;
     private javax.swing.JLabel labelResultado;
     private javax.swing.JSpinner spinnerNumero;
-    // End of variables declaration//GEN-END:variables
 }
