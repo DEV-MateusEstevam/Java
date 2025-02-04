@@ -19,7 +19,7 @@ public class ArCondicionado {
     }
     
     void AumentarTemperatura(){
-        this.Temperatura = Temperatura + 1;\\
+        this.Temperatura = Temperatura + 1;
     }
     
     void DiminuirTemperatura(){
