@@ -8,7 +8,7 @@ public class BuscaVetor {
         int vetor[] = {2,4,6,8,10,12,14,16};
         
         //não existem valores negativos para indices de vetores em java, se ele não encontrar o valor no vetor ele vai retornar um indice negativo
-        //int negativo = Arrays.binarySearch(vetor, 7);
+        //int posicao = Arrays.binarySearch(vetor, 7);
         
         int posicao = Arrays.binarySearch(vetor, 8);
         
