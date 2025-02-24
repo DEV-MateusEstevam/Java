@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package swingmath;
 
 import java.lang.Math;
@@ -14,7 +9,6 @@ public class TelaMath extends javax.swing.JFrame {
     }
 
     @SuppressWarnings("unchecked")
-    // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
         jLabel1 = new javax.swing.JLabel();
@@ -40,13 +34,13 @@ public class TelaMath extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        jLabel1.setFont(new java.awt.Font("Verdana", 3, 18)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("Verdana", 3, 18)); 
         jLabel1.setText("Funções Math Swing");
 
-        jLabel2.setFont(new java.awt.Font("Verdana", 1, 14)); // NOI18N
+        jLabel2.setFont(new java.awt.Font("Verdana", 1, 14));
         jLabel2.setText("Numero:");
 
-        btnCalcular.setFont(new java.awt.Font("Verdana", 3, 14)); // NOI18N
+        btnCalcular.setFont(new java.awt.Font("Verdana", 3, 14)); 
         btnCalcular.setText("Calcular");
         btnCalcular.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -54,55 +48,55 @@ public class TelaMath extends javax.swing.JFrame {
             }
         });
 
-        jLabel4.setFont(new java.awt.Font("Verdana", 1, 14)); // NOI18N
+        jLabel4.setFont(new java.awt.Font("Verdana", 1, 14)); 
         jLabel4.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel4.setText("Valor de PI:");
 
-        jLabel5.setFont(new java.awt.Font("Verdana", 1, 14)); // NOI18N
+        jLabel5.setFont(new java.awt.Font("Verdana", 1, 14));
         jLabel5.setText("Exponenciação:");
 
-        jLabel6.setFont(new java.awt.Font("Verdana", 1, 14)); // NOI18N
+        jLabel6.setFont(new java.awt.Font("Verdana", 1, 14)); 
         jLabel6.setText("Raiz Quadrada:");
 
-        jLabel7.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        jLabel7.setFont(new java.awt.Font("Tahoma", 1, 14)); 
         jLabel7.setText("Raiz Cúbica:");
 
-        jLabel8.setFont(new java.awt.Font("Verdana", 1, 14)); // NOI18N
+        jLabel8.setFont(new java.awt.Font("Verdana", 1, 14)); 
         jLabel8.setText("Valor Absoluto:");
 
-        jLabel9.setFont(new java.awt.Font("Verdana", 1, 14)); // NOI18N
+        jLabel9.setFont(new java.awt.Font("Verdana", 1, 14)); 
         jLabel9.setText("Arrendodado para Baixo:");
 
-        jLabel10.setFont(new java.awt.Font("Verdana", 1, 14)); // NOI18N
+        jLabel10.setFont(new java.awt.Font("Verdana", 1, 14)); 
         jLabel10.setText("Arredondado para Cima:");
 
-        jLabel11.setFont(new java.awt.Font("Verdana", 1, 14)); // NOI18N
+        jLabel11.setFont(new java.awt.Font("Verdana", 1, 14)); 
         jLabel11.setText("Arredonda Aritméticamente:");
 
-        txtNumero.setFont(new java.awt.Font("Verdana", 1, 18)); // NOI18N
+        txtNumero.setFont(new java.awt.Font("Verdana", 1, 18));
 
-        labelPI.setFont(new java.awt.Font("Verdana", 1, 14)); // NOI18N
+        labelPI.setFont(new java.awt.Font("Verdana", 1, 14)); 
         labelPI.setText("0");
 
-        labelEXP.setFont(new java.awt.Font("Verdana", 1, 14)); // NOI18N
+        labelEXP.setFont(new java.awt.Font("Verdana", 1, 14)); 
         labelEXP.setText("0");
 
-        labelRaizQ.setFont(new java.awt.Font("Verdana", 1, 14)); // NOI18N
+        labelRaizQ.setFont(new java.awt.Font("Verdana", 1, 14)); 
         labelRaizQ.setText("0");
 
-        labelRaizC.setFont(new java.awt.Font("Verdana", 1, 14)); // NOI18N
+        labelRaizC.setFont(new java.awt.Font("Verdana", 1, 14)); 
         labelRaizC.setText("0");
 
-        labelValorA.setFont(new java.awt.Font("Verdana", 1, 14)); // NOI18N
+        labelValorA.setFont(new java.awt.Font("Verdana", 1, 14)); 
         labelValorA.setText("0");
 
-        labelAB.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        labelAB.setFont(new java.awt.Font("Tahoma", 1, 14)); 
         labelAB.setText("0");
 
-        labelAA.setFont(new java.awt.Font("Verdana", 1, 14)); // NOI18N
+        labelAA.setFont(new java.awt.Font("Verdana", 1, 14)); 
         labelAA.setText("0");
 
-        labelAC.setFont(new java.awt.Font("Verdana", 1, 14)); // NOI18N
+        labelAC.setFont(new java.awt.Font("Verdana", 1, 14)); 
         labelAC.setText("0");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
@@ -196,23 +190,19 @@ public class TelaMath extends javax.swing.JFrame {
         );
 
         pack();
-    }// </editor-fold>//GEN-END:initComponents
+    }
 
-    private void btnCalcularActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnCalcularActionPerformed
+    private void btnCalcularActionPerformed(java.awt.event.ActionEvent evt) {
         float numero = Integer.parseInt(txtNumero.getText());
         
         float valorPI = Math.PI.getvalue(numero);
         
         labelPI.setText(string);
-    }//GEN-LAST:event_btnCalcularActionPerformed
+    }
 
     
     public static void main(String args[]) {
-        /* Set the Nimbus look and feel */
-        //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
-        /* If Nimbus (introduced in Java SE 6) is not available, stay with the default look and feel.
-         * For details see http://download.oracle.com/javase/tutorial/uiswing/lookandfeel/plaf.html 
-         */
+        
         try {
             for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
                 if ("Nimbus".equals(info.getName())) {
@@ -229,9 +219,7 @@ public class TelaMath extends javax.swing.JFrame {
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
             java.util.logging.Logger.getLogger(TelaMath.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
-        //</editor-fold>
-
-        /* Create and display the form */
+        
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
                 new TelaMath().setVisible(true);
@@ -239,7 +227,6 @@ public class TelaMath extends javax.swing.JFrame {
         });
     }
 
-    // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton btnCalcular;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
