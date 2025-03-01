@@ -648,7 +648,7 @@
         </macrodef>
     </target>
     <target depends="-init-macrodef-test-debug-junit,-init-macrodef-test-debug-testng" name="-init-macrodef-test-debug"/>
-    <!-- PAREI AQUI -->
+    <!---->
     <target depends="-profile-pre-init, init, -profile-post-init, -profile-init-macrodef-profile, -profile-init-check" if="profiler.info.jvmargs.agent" name="profile-init"/>
     <target if="profiler.info.jvmargs.agent" name="-profile-pre-init">
         <!-- Empty placeholder for easier customization. -->
