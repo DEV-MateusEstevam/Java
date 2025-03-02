@@ -879,7 +879,7 @@
         <mkdir dir="${build.classes.dir}"/>
     </target>
     <target name="-pre-compile">
-        <!--PAREI AQUI-->
+        <!---->
     </target>
     <target if="do.depend.true" name="-compile-depend">
         <pathconvert property="build.generated.subdirs">
