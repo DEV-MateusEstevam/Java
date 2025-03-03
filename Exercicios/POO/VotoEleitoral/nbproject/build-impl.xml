@@ -923,7 +923,7 @@
         <mkdir dir="${dist.jar.dir}"/>
     </target>
     <target name="-pre-jar">
-        <!--PAREIAQUI-->
+        <!---->
     </target>
     <target depends="init" if="do.archive" name="-do-jar-create-manifest" unless="manifest.available">
         <tempfile deleteonexit="true" destdir="${build.dir}" property="tmp.manifest.file"/>
