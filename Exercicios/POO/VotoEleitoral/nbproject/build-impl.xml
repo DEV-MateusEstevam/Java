@@ -985,11 +985,7 @@
     </target>
     <target depends="init,compile,-pre-jar,-do-jar-without-libraries,-do-jar-with-libraries,-post-jar" name="-do-jar"/>
     <target depends="init,compile,-pre-jar,-do-jar,-post-jar" description="Build JAR." name="jar"/>
-    <!--
-                =================
-                EXECUTION SECTION
-                =================
-            -->
+    <!---->
     <target depends="init,compile" description="Run a main class." name="run">
         <j2seproject1:java>
             <customize>
