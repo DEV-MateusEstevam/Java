@@ -1004,11 +1004,7 @@
         <fail unless="run.class">Must select one file in the IDE or set run.class</fail>
         <j2seproject1:java classname="${run.class}" classpath="${run.test.classpath}"/>
     </target>
-    <!--
-                =================
-                DEBUGGING SECTION
-                =================
-            -->
+    <!---->
     <target depends="init" if="netbeans.home" name="-debug-start-debugger">
         <j2seproject1:nbjpdastart name="${debug.class}"/>
     </target>
