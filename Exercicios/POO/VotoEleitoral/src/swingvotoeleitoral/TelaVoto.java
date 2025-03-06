@@ -10,7 +10,6 @@ public class TelaVoto extends javax.swing.JFrame {
     }
 
     @SuppressWarnings("unchecked")
-    // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
         jLabel1 = new javax.swing.JLabel();
@@ -27,18 +26,18 @@ public class TelaVoto extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setResizable(false);
 
-        jLabel1.setFont(new java.awt.Font("Verdana", 3, 18)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("Verdana", 3, 18)); 
         jLabel1.setText("VOTO ELEITORAL");
 
-        jLabel2.setFont(new java.awt.Font("Verdana", 1, 14)); // NOI18N
+        jLabel2.setFont(new java.awt.Font("Verdana", 1, 14)); 
         jLabel2.setText("Digite o ano do seu nascimento:");
 
-        txtNascimento.setFont(new java.awt.Font("Verdana", 1, 14)); // NOI18N
+        txtNascimento.setFont(new java.awt.Font("Verdana", 1, 14)); 
 
-        jLabel3.setFont(new java.awt.Font("Verdana", 1, 14)); // NOI18N
+        jLabel3.setFont(new java.awt.Font("Verdana", 1, 14)); 
         jLabel3.setText("Estamos no ano de:");
 
-        btnCalcular.setFont(new java.awt.Font("Verdana", 3, 18)); // NOI18N
+        btnCalcular.setFont(new java.awt.Font("Verdana", 3, 18)); 
         btnCalcular.setText("CALCULAR IDADE");
         btnCalcular.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -46,18 +45,18 @@ public class TelaVoto extends javax.swing.JFrame {
             }
         });
 
-        labelAtual.setFont(new java.awt.Font("Verdana", 1, 18)); // NOI18N
+        labelAtual.setFont(new java.awt.Font("Verdana", 1, 18)); 
 
-        jLabel5.setFont(new java.awt.Font("Verdana", 1, 14)); // NOI18N
+        jLabel5.setFont(new java.awt.Font("Verdana", 1, 14)); 
         jLabel5.setText("Idade:");
 
-        labelIdade.setFont(new java.awt.Font("Verdana", 1, 18)); // NOI18N
+        labelIdade.setFont(new java.awt.Font("Verdana", 1, 18)); 
         labelIdade.setText("0");
 
-        jLabel7.setFont(new java.awt.Font("Verdana", 1, 14)); // NOI18N
+        jLabel7.setFont(new java.awt.Font("Verdana", 1, 14)); 
         jLabel7.setText("Situação:");
 
-        labelSituacao.setFont(new java.awt.Font("Verdana", 1, 18)); // NOI18N
+        labelSituacao.setFont(new java.awt.Font("Verdana", 1, 18)); 
         labelSituacao.setText("<vazio>");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
@@ -113,9 +112,9 @@ public class TelaVoto extends javax.swing.JFrame {
         );
 
         pack();
-    }// </editor-fold>//GEN-END:initComponents
+    }
 
-    private void btnCalcularActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnCalcularActionPerformed
+    private void btnCalcularActionPerformed(java.awt.event.ActionEvent evt) {
         Calendar calendario = Calendar.getInstance();
         
         int anoAtual = calendario.get(Calendar.YEAR);
@@ -127,7 +126,7 @@ public class TelaVoto extends javax.swing.JFrame {
         
         String situacao = ((idade>=16 && idade<18) || (idade >=70)) ? "VOTO OPCIONAL":"VOTO OBRIGATÓRIO";
         labelSituacao.setText(situacao);
-    }//GEN-LAST:event_btnCalcularActionPerformed
+    }
 
     public static void main(String args[]) {
         
@@ -138,7 +137,6 @@ public class TelaVoto extends javax.swing.JFrame {
         });
     }
 
-    // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton btnCalcular;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
@@ -149,5 +147,4 @@ public class TelaVoto extends javax.swing.JFrame {
     private javax.swing.JLabel labelIdade;
     private javax.swing.JLabel labelSituacao;
     private javax.swing.JTextField txtNascimento;
-    // End of variables declaration//GEN-END:variables
 }
