@@ -1302,11 +1302,7 @@
         <j2seproject1:nbjpdareload dir="${build.test.classes.dir}"/>
     </target>
     <target depends="init,-pre-debug-fix,-do-debug-fix-test" if="netbeans.home" name="debug-fix-test"/>
-    <!--
-                =========================
-                APPLET EXECUTION SECTION
-                =========================
-            -->
+    <!---->
     <target depends="init,compile-single" name="run-applet">
         <fail unless="applet.url">Must select one file in the IDE or set applet.url</fail>
         <j2seproject1:java classname="sun.applet.AppletViewer">
