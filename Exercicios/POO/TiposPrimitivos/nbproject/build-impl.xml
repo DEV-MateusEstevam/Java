@@ -1041,11 +1041,7 @@
         <j2seproject1:nbjpdareload/>
     </target>
     <target depends="init,-pre-debug-fix,-do-debug-fix" if="netbeans.home" name="debug-fix"/>
-    <!--
-                =================
-                PROFILING SECTION
-                =================
-            -->
+    <!---->
     <!--
                 pre NB7.2 profiler integration
             -->
