@@ -1098,9 +1098,7 @@
             <formatter type="xml"/>
         </junit>
     </target>
-    <!--
-                end of pre NB72 profiling section
-            -->
+    <!---->
     <target if="netbeans.home" name="-profile-check">
         <condition property="profiler.configured">
             <or>
