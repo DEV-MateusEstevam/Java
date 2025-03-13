@@ -25,8 +25,6 @@ public class CondicionalComposta {
         } else{
             System.out.println("MENOR DE IDADE!");
         }
-        
         System.out.println();
     }
-    
 }
