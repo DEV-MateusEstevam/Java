@@ -1310,11 +1310,7 @@
         </j2seproject3:debug>
     </target>
     <target depends="init,compile-single,-debug-start-debugger,-debug-start-debuggee-applet" if="netbeans.home" name="debug-applet"/>
-    <!--
-                ===============
-                CLEANUP SECTION
-                ===============
-            -->
+    <!---->
     <target name="-deps-clean-init" unless="built-clean.properties">
         <property location="${build.dir}/built-clean.properties" name="built-clean.properties"/>
         <delete file="${built-clean.properties}" quiet="true"/>
