@@ -1136,11 +1136,7 @@
         <startprofiler/>
         <antcall target="run-applet"/>
     </target>
-    <!--
-                ===============
-                JAVADOC SECTION
-                ===============
-            -->
+    <!---->
     <target depends="init" if="have.sources" name="-javadoc-build">
         <mkdir dir="${dist.javadoc.dir}"/>
         <condition else="" property="javadoc.endorsed.classpath.cmd.line.arg" value="-J${endorsed.classpath.cmd.line.arg}">
